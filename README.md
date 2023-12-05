@@ -6,22 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Installation
-
-```bash
-$ npm install
-
-// CMD your Taskbar root
-
-npm install -g @angular/cli
-ng new angular-frontend-app
-cd nestjs-backend-app/src
-ng generate module product
-ng generate controller product
-ng generate service product
-npm run start:dev
-```
-
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

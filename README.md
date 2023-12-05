@@ -1,23 +1,29 @@
-# AngularFrontendApp
+# AngularFrontendApp 11/2023
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
 ## Installation
 
 ```bash
-$ npm install
+$ 
+#Step 1 init project
 npm install -g @angular/cli
 ng new angular-frontend-app
 cd nestjs-backend-app/src
 ng generate module app --routing 
+npm install primeng --save
+npm install primeicons --save
+
+#Step 2 create shopping
 cd nestjs-backend-app/app
 ng generate module shopping --routing 
 cd shopping 
 ng generate component shopping-cart --export
-npm install primeng --save
-npm install primeicons --save
-ng generate controller product
-ng generate service product
+
+#ng generate module name-module --route name-module --module app.module
+
+ng generate controller shopping
+ng generate service shopping
 npm run start:dev
 ```
 

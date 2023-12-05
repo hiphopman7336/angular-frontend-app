@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
+## Installation
+
+```bash
+$ npm install
+npm install -g @angular/cli
+ng new angular-frontend-app
+cd nestjs-backend-app/src
+ng generate module app --routing 
+cd nestjs-backend-app/app
+ng generate module shopping --routing 
+cd shopping 
+ng generate component shopping-cart --export
+npm install primeng --save
+npm install primeicons --save
+ng generate controller product
+ng generate service product
+npm run start:dev
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

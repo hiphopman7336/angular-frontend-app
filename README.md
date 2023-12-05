@@ -9,7 +9,7 @@ $
 #Step 1 init project
 npm install -g @angular/cli
 ng new angular-frontend-app
-cd nestjs-backend-app/src
+cd angular-frontend-app/src
 ng generate module app --routing 
 npm install primeng --save
 npm install primeicons --save
@@ -19,6 +19,8 @@ cd nestjs-backend-app/app
 ng generate module shopping --routing 
 cd shopping 
 ng generate component shopping-cart --export
+#https://primeng.org/icons
+#styles.scss => @import "primeicons/primeicons.css";
 
 #ng generate module name-module --route name-module --module app.module
 
